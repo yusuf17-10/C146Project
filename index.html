@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    
+
+    <head>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+
+        <a-scene>
+            <!--Creating Head-->
+            <a-entity>
+                <a-sphere position = "0 2.5 -6" color = "#0176C7" radius = "1">
+                    <a-torus rotation="-40 -60 -100" radius = "1" radius-tubular="0.05" arc= "30"></a-torus>
+                </a-sphere>
+                
+            </a-entity>
+
+         <!--Creating The left eye-->
+         <a-entity>
+            <a-sphere position = "-0.06 1.83 -1" color = "#CACED7" radius = "0.04" rotation = "0 0 0"></a-sphere>
+        </a-entity>
+
+        <!--Creating The Black Ball in the left eye-->
+        <a-entity>
+            <a-sphere position = "-0.06 1.81 -0.9" color = "#050608" radius = "0.01"></a-sphere>
+        </a-entity>
+
+    
+         <!--Creating The right eye-->
+         <a-entity>
+            <a-sphere position = "0.06 1.83 -1" color = "#CACED7" radius = "0.04" rotation = "0 0 0"></a-sphere>
+        </a-entity>
+
+        <!--Creating The Black Ball in the left eye-->
+        <a-entity>
+            <a-sphere position = "0.05 1.81 -0.9" color = "#050608" radius = "0.01"></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-circle position = "-0.001 1.77 -1" color = "#B1000E" radius = "0.02"></a-circle>
+        </a-entity>
+
+        <a-entity line="start: 0.05 1.73 -1; end:0.14 1.76 -1; color: #3B4044"></a-entity>
+        
+        <a-entity line="start: 0.05 1.71 -1; end:0.14 1.71 -1; color: #3B4044"></a-entity>
+
+        <a-entity line="start: 0.05 1.69 -1; end:0.14 1.67 -1; color: #3B4044"></a-entity>
+
+        <a-entity line="start: -0.05 1.73 -1; end:-0.14 1.76 -1; color: #3B4044"></a-entity>
+        
+        <a-entity line="start: -0.05 1.71 -1; end:-0.14 1.71 -1; color: #3B4044"></a-entity>
+
+        <a-entity line="start: -0.05 1.69 -1; end:-0.14 1.67 -1; color: #3B4044"></a-entity>
+
+        <a-entity>
+            <a-cylinder position = "0 1.5 -6" color = "red" height = "0.1" width = "1" rotation = "4 0 0" radius = "0.9"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position = "0 0.9 -6" color = "#0176C7" height = "1.1" width = "1" rotation = "4 0 0" radius = "0.9"></a-cylinder>
+        </a-entity>
+        
+        <a-entity>
+            <a-sphere position = "0 0.9 -5" radius = "0.5" rotation="500 0 0"></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-circle position="0 1.4 -4 " color="#F3D829" radius="0.1" rotation="0 19 0"></a-circle>
+         </a-entity>
+
+
+         <a-entity>
+            <a-cylinder position = "-1 1 -6" color = "#0176C7" height = "1.4" width = "0.2" rotation = "4 100 -60" radius = "0.1"></a-cylinder>
+        </a-entity>
+         
+        <a-entity>
+            <a-cylinder position = "1 1 -6" color = "#0176C7" height = "1.2" width = "0.2" rotation = "9 100 30" radius = "0.1"></a-cylinder>
+        </a-entity>
+
+
+        <a-entity>
+            <a-sphere position="-0.75 1 -4.2" color = "#DEDFE6" radius="0.2"></a-sphere>
+        </a-entity>
+         
+        <a-entity>
+            <a-sphere position="0.78 1.4 -4.2" color = "#DEDFE6" radius="0.2"></a-sphere>
+        </a-entity>
+
+
+        <a-entity>
+            <a-cylinder position="-0.50 0.2 -6" color = "#0176C7" radius = "0.2" height="0.9" rotation="0 50 0"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="-0.50 -0.1 -5.7" color = "#DEDFE6" radius = "0.3" height = "0.2" ></a-cylinder>
+        </a-entity>
+
+
+        <a-entity>
+            <a-cylinder position="0.50 0.2 -6" color = "#0176C7" radius = "0.2" height="0.9" rotation="0 50 0"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position="0.50 -0.1 -5.7" color = "#DEDFE6" radius = "0.3" height = "0.2" ></a-cylinder>
+        </a-entity>
+
+
+        <a-entity>
+            <a-sky color = "#97D0DB"></a-sky>
+        </a-entity>
+
+        <!--creating the bamboo copter-->
+        <a-entity>
+            <a-cylinder position = "0 3.3 -5.9" color = "#D3B633" radius = "0.05" height="1.30"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder position = "0 4 -5.9" color = "#D3B633" radius = "0.05" height = "0.05"></a-cylinder>
+        </a-entity>
+        
+        <a-entity >
+            <a-cylinder position="0 4 -5.9" color  = "#D3B633" radius = "0.05" height="0.9" rotation="88 100 0"></a-cylinder>
+        </a-entity>
+
+
+
+
+
+    </body>
+
+</html>
+
